@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapacitorLocalNotifications",
+    name: "ResgridLocalNotifications",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "CapacitorLocalNotifications",
+            name: "ResgridLocalNotifications",
             targets: ["LocalNotificationsPlugin"])
     ],
     dependencies: [
