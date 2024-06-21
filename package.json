@@ -15,7 +15,7 @@
     "Package.swift",
     "CapacitorLocalNotifications.podspec"
   ],
-  "author": "Ionic <hi@ionicframework.com>",
+  "author": "Resgrid Team <team@resgrid.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
