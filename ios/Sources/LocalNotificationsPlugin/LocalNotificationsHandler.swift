@@ -11,7 +11,7 @@ public class LocalNotificationsHandler: NSObject, NotificationHandlerProtocol {
 
     public func requestPermissions(with completion: ((Bool, Error?) -> Void)? = nil) {
         let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.badge, .alert, .sound]) { (granted, error) in
+        center.requestAuthorization(options: [.badge, .alert, .sound, .criticalAlert]) { (granted, error) in
             completion?(granted, error)
         }
     }
