@@ -44,9 +44,14 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "publish:cocoapod": "pod trunk push ./CapacitorLocalNotifications.podspec --allow-warnings"
+    "publish:cocoapod": "pod trunk push ./CapacitorLocalNotifications.podspec --allow-warnings",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^10.0.6",
+    "@semantic-release/npm": "^12.0.0",
+    "@semantic-release/commit-analyzer": "^13.0.0",
     "@capacitor/android": "^6.0.0",
     "@capacitor/cli": "^6.0.0",
     "@capacitor/core": "^6.0.0",
@@ -60,6 +65,7 @@
     "prettier-plugin-java": "~1.0.2",
     "rimraf": "^3.0.0",
     "rollup": "^2.29.0",
+    "semantic-release": "^24.0.0",
     "swiftlint": "^1.0.1",
     "typescript": "~4.1.5"
   },
