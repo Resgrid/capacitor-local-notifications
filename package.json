@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorLocalNotifications.podspec"
+    "ResgridLocalNotifications.podspec"
   ],
   "author": "Resgrid Team <team@resgrid.com>",
   "license": "MIT",
